@@ -1,0 +1,105 @@
+* {
+    
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: #a65a2d !important;
+}
+.marker {
+    width:40px;
+    display:inline-block;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: lemonchiffon;
+}
+.wrapper {
+    border: 2px;
+    background-color: rgb(212, 159, 90);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+.items {
+    background-color: burlywood;
+    padding: 1px 0px 1px 16px;
+    border-radius: 8px ;
+
+}
+
+.field {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.addButton {
+    background-color: #0078D7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.addButton:hover {
+    cursor:pointer;
+    background-color: #005ba5;
+}
+
+.marker > button {
+    border: none;
+    font-size: 16px;
+    background-color: #FFF0;
+}
+.marker > button:hover {
+    cursor:pointer;
+}
+
+.done { 
+    padding: 1px 0px 1px 0px;
+}
+#NewItem {
+    height: 31px;
+    font-size: 16px;
+    border: 0px;
+    width: 75%;
+}
+#NewItem:focus {
+    outline: none;
+    padding-right: -12px;
+}
+input[type="text"]:focus{
+    padding-left: 4px;
+    transition: padding-left .5s;
+}
+input[type="text"]:focus{
+    padding-left: 12px;
+    transition: padding-left .5s;
+}
+@media only screen and (max-width: 800px) {
+    #NewItem {
+        width: 70%;
+        transition: transform 1s;
+    }
+} 
+@media only screen and (max-width: 700px) {
+.divider {
+    display:none;
+}
+.addButton {
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+#NewItem {
+    width: 93%;
+}
+} 
+
